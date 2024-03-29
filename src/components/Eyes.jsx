@@ -46,9 +46,9 @@ const Eyes = () => {
         <div className='eyes w-full h-screen overflow-hidden'>
             <div className='relative w-full h-full bg-cover bg-center bg-[url("Top-Viewbbcbv-1-scaled.jpg")]'>
                 <div className='absolute top-1/2 left-1/2 -translate-x-[50%] -translate-y-[50%] flex gap-10 '>
-                    <div className='w-[14vw] h-[14vw] rounded-full bg-zinc-100'>
+                    <div className='w-[14.7rem] h-[14.7rem] rounded-full bg-zinc-100'>
                         <div style={{ transform: `translate(${38 + xDistance}%, ${38 + yDistance}%)` }} className='absolute'>
-                            <div className='relative w-[8vw] h-[8vw] rounded-full bg-zinc-900 flex items-center justify-center'>
+                            <div className='relative w-[8.4rem] h-[8.4rem] rounded-full bg-zinc-900 flex items-center justify-center'>
                                 <div className='text-white text-lg pFont1'>PLAY</div>
                                 <div style={{ transform: `translate(-50%, -50%) rotate(${rotate}deg)` }} className="line absolute top-1/2 left-1/2 -translate-x-[50%] -translate-y-[50%] w-full h-5">
                                     <div className='w-5 h-5 rounded-full bg-zinc-100'></div>
@@ -56,9 +56,9 @@ const Eyes = () => {
                             </div>
                         </div>
                     </div>
-                    <div className='w-[14vw] h-[14vw] rounded-full bg-zinc-100'>
+                    <div className='w-[14.7rem] h-[14.7rem] rounded-full bg-zinc-100'>
                         <div style={{ transform: `translate(${38 + xDistance}%, ${38 + yDistance}%)` }} className='absolute'>
-                            <div className='relative w-[8vw] h-[8vw] rounded-full bg-zinc-900 flex items-center justify-center'>
+                            <div className='relative w-[8.4rem] h-[8.4rem] rounded-full bg-zinc-900 flex items-center justify-center'>
                                 <div className='text-white text-lg pFont1'>PLAY</div>
                                 <div style={{ transform: `translate(-50%, -50%) rotate(${rotate}deg)` }} className="line absolute top-1/2 left-1/2 -translate-x-[50%] -translate-y-[50%] w-full h-5">
                                     <div className='w-5 h-5 rounded-full bg-zinc-100'></div>
