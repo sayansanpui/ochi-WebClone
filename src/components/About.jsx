@@ -22,7 +22,7 @@ const About = () => {
                     </div>
                     <div className=' col-span-4'>
                         <div className='max-w-[320px]'>
-                            <p className='mb-[35px] pFont1 text-lg'>We create tailored presentations to help you persuade your colleagues, clients, or investors. Whether it's live or digital, delivered for one or a hundred people.</p>
+                            <p className='mb-[35px] pFont1 text-lg'>We create tailored presentations to help you persuade your colleagues, clients, or investors. Whether it’s live or digital, delivered for one or a hundred people.</p>
                             <p className='pFont1 text-lg'>We believe the mix of strategy and design (with a bit of coffee) is what makes your message clear, convincing, and captivating.</p>
                         </div>
                     </div>
@@ -57,7 +57,7 @@ const About = () => {
                             <div className='w-[10px] h-[10px] bg-white rounded-full ml-[22px]'></div>
                         </a>
                     </div>
-                    <div className='w-1/2 h-[60vh] bg-[url("https://github.com/sayansanpui/ochi-WebClone/blob/main/public/Homepage-Photo.jpg?raw=true")] bg-cover rounded-xl'></div>
+                    <div className='w-1/2 h-[60vh] bg-[url("Homepage-Photo.jpg")] bg-cover rounded-xl'></div>
                 </div>
             </div>
         </div>

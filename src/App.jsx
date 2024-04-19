@@ -8,7 +8,7 @@ import { Featured } from './components/Featured'
 import { Cards } from './components/Cards'
 import { Footer } from './components/Footer'
 import LocomotiveScroll from 'locomotive-scroll';
-import { Eyes2 } from './components/Eyes2'
+import EyesTwo from './components/EyesTwo'
 
 function App() {
 
@@ -24,7 +24,7 @@ function App() {
       <Eyes />
       <Featured />
       <Cards />
-      <Eyes2 />
+      <EyesTwo />
       <Footer />
     </div>
   )

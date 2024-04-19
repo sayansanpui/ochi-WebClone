@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
 
-export const Eyes2 = () => {
+const EyesTwo = () => {
     const [rotate, setRotate] = useState(0);
 
     const [xDistance, setXDistance] = useState(0);
@@ -32,8 +32,8 @@ export const Eyes2 = () => {
             let deltaX = mouseX - window.innerWidth / 2;
             let deltaY = mouseY - window.innerHeight / 2;
 
-            var x = (deltaX / w) * 8;
-            var y = (deltaY / h) * 8;
+            var x = (deltaX / w)*8;
+            var y = (deltaY / h)*8;
 
             setXDistance(x);
             setYDistance(y);
@@ -43,8 +43,8 @@ export const Eyes2 = () => {
     // console.log(xDistance, yDistance);
 
     return (
-        <div className='eyes w-full h-screen overflow-hidden bg-[#ceea67]'>
-            <div data-scroll data-scroll-section data-scroll-speed="-.7" className='relative w-full h-full bg-cover bg-center bg-[url("https://github.com/sayansanpui/ochi-WebClone/blob/main/public/bgText.png?raw=true")]'>
+        <div className='eyes w-full h-screen overflow-hidden'>
+            <div data-scroll data-scroll-section data-scroll-speed="-.7" className='relative w-full h-full bg-cover bg-center bg-[url("bgText.png")]'>
                 <div className='absolute top-1/2 left-1/2 -translate-x-[50%] -translate-y-[50%] flex gap-10 '>
                     <div className='w-[14.7rem] h-[14.7rem] rounded-full bg-zinc-100'>
                         <div style={{ transform: `translate(${38 + xDistance}%, ${38 + yDistance}%)` }} className='absolute'>
@@ -71,3 +71,5 @@ export const Eyes2 = () => {
         </div>
     )
 }
+
+export default EyesTwo
