@@ -113,7 +113,7 @@ export const Featured = () => {
                             <motion.div
                                 animate={cardSize[2]}
                                 className="card w-full h-full rounded-xl overflow-hidden transition duration-500">
-                                <img src="https://github.com/sayansanpui/ochi-WebClone/blob/main/public/public/Frame-3875.jpg?raw=true" alt="" />
+                                <img src="https://github.com/sayansanpui/ochi-WebClone/blob/main/public/Frame-3875.jpg?raw=true" alt="" />
                             </motion.div>
                             <h1 className='absolute flex overflow-hidden left-full -translate-x-1/2 top-1/2 -translate-y-1/2 z-[9] text-9xl uppercase text-[#ceea67] hFont1'>
                                 {"Trawa".split('').map((item, index) =>
