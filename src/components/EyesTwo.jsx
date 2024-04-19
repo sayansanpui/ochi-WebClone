@@ -48,7 +48,7 @@ const EyesTwo = () => {
         <div className='eyes w-full h-screen overflow-hidden'>
             <div
                 data-scroll data-scroll-section data-scroll-speed="-.5"
-                className='relative w-full h-[1680px] bg-cover'
+                className='relative w-full h-[full] bg-cover'
                 style={{ backgroundImage: `url(${eyeBg2})` }}
             >
                 <div className='absolute top-1/2 left-1/2 -translate-x-[50%] -translate-y-[50%] flex gap-10 '>
