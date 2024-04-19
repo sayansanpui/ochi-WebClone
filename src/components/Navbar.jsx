@@ -1,8 +1,25 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 
 function Navbar() {
+    const [prevScrollPos, setPrevScrollPos] = useState(0);
+    const [visible, setVisible] = useState(true);
+
+    useEffect(() => {
+        const handleScroll = () => {
+            const currentScrollPos = window.pageYOffset;
+            setVisible(prevScrollPos > currentScrollPos);
+            setPrevScrollPos(currentScrollPos);
+        };
+
+        window.addEventListener("scroll", handleScroll);
+        return () => window.removeEventListener("scroll", handleScroll);
+    }, [prevScrollPos]);
+
+
     return (
-        <div className="fixed z-[999] w-full py-[1.3rem] px-[4rem] pFont2 flex justify-between items-center backdrop-blur">
+        <div
+            className={`fixed z-[999] w-full py-[1.3rem] px-[4rem] pFont2 flex justify-between items-center backdrop-blur transition-all duration-300 ${visible ? "" : "hidden"}`}
+        >
             <div className="logo w-1/2">
                 <svg
                     width="72"

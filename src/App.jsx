@@ -7,8 +7,13 @@ import Eyes from './components/Eyes'
 import { Featured } from './components/Featured'
 import { Cards } from './components/Cards'
 import { Footer } from './components/Footer'
+import LocomotiveScroll from 'locomotive-scroll';
+import { Eyes2 } from './components/Eyes2'
 
 function App() {
+
+  const locomotiveScroll = new LocomotiveScroll();
+
   return (
     // <div className='w-full h-screen bg-zinc-900 text-white'>
     <div className='w-full h-screen bg-[#f1f1f1]'>
@@ -19,6 +24,7 @@ function App() {
       <Eyes />
       <Featured />
       <Cards />
+      <Eyes2 />
       <Footer />
     </div>
   )

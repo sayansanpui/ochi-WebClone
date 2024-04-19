@@ -2,7 +2,7 @@ import React from 'react'
 
 const About = () => {
     return (
-        <div className='w-full pt-24 pb-[4rem] rounded-tl-3xl rounded-tr-3xl bg-[#ceea67]'>
+        <div data-scroll data-scroll-section data-scroll-speed="-.2" className='w-full pt-24 pb-[4rem] rounded-tl-3xl rounded-tr-3xl bg-[#ceea67]'>
             <div className=' max-w-[1341px] ml-[4rem] mb-[4rem]'>
                 <h1 className='text-[3.7rem] pFont2 leading-[4rem] font-light tracking-tight'>
                     Ochi is a strategic partner for fast-growing tech businesses that need to&nbsp;
