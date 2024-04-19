@@ -15,7 +15,7 @@ const LandingPage = () => {
                                         initial={{ width: 0 }}
                                         animate={{ width: "9vw" }}
                                         transition={{ ease: [0.76, 0, 0.24, 1], duration: 1 }}
-                                        className='mr-[0.9vw] w-[9vw] rounded-lg h-[5.7vw] -top-[0.3vw] relative bg-[url("content-image01.jpg")] bg-cover'
+                                        className='mr-[0.9vw] w-[9vw] rounded-lg h-[5.7vw] -top-[0.3vw] relative bg-[url("../../public/content-image01.jpg")] bg-cover'
                                     ></motion.div>
                                 )}
                                 <h1 className="pt-[1vw] -mb-[1vw] uppercase text-[9vw] leading-[.75] -top-[1.3vw] relative hFont1">
