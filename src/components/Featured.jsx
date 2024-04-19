@@ -1,6 +1,10 @@
 import { motion, useAnimation } from 'framer-motion'
 import { Power4 } from "gsap/all";
 import React, { useState } from 'react'
+import contentImage01 from '../assets/Fyde_Illustration_Crypto_2png.png';
+import contentImage02 from '../assets/Vise_front2-.jpg';
+import contentImage03 from '../assets/Frame-3875.jpg';
+import contentImage04 from '../assets/PB-Front-4.png';
 
 export const Featured = () => {
     const cards = [useAnimation(), useAnimation(), useAnimation(), useAnimation()]
@@ -36,7 +40,7 @@ export const Featured = () => {
                             <motion.div
                                 animate={cardSize[0]}
                                 className="card w-full h-full rounded-xl overflow-hidden transition duration-500">
-                                <img src="../../public/Fyde_Illustration_Crypto_2png.png" alt="" />
+                                <img src={contentImage01} alt="" />
                             </motion.div>
                             <h1 className='absolute flex overflow-hidden left-full -translate-x-1/2 top-1/2 -translate-y-1/2 z-[9] text-9xl uppercase text-[#ceea67] hFont1'>
                                 {"Fyde".split('').map((item, index) =>
@@ -76,7 +80,7 @@ export const Featured = () => {
                             <motion.div
                                 animate={cardSize[1]}
                                 className="card w-full h-full rounded-xl overflow-hidden transition duration-500">
-                                <img src="../../public/Vise_front2-.jpg" alt="" />
+                                <img src={contentImage02} alt="" />
                             </motion.div>
                             <h1 className='absolute flex overflow-hidden right-full translate-x-1/2 top-1/2 -translate-y-1/2 z-[9] text-9xl uppercase text-[#ceea67] hFont1'>
                                 {"Vise".split('').map((item, index) =>
@@ -113,7 +117,7 @@ export const Featured = () => {
                             <motion.div
                                 animate={cardSize[2]}
                                 className="card w-full h-full rounded-xl overflow-hidden transition duration-500">
-                                <img src="../../public/Frame-3875.jpg" alt="" />
+                                <img src={contentImage03} alt="" />
                             </motion.div>
                             <h1 className='absolute flex overflow-hidden left-full -translate-x-1/2 top-1/2 -translate-y-1/2 z-[9] text-9xl uppercase text-[#ceea67] hFont1'>
                                 {"Trawa".split('').map((item, index) =>
@@ -153,7 +157,7 @@ export const Featured = () => {
                             <motion.div
                                 animate={cardSize[3]}
                                 className="card w-full h-full rounded-xl overflow-hidden transition duration-500">
-                                <img src="../../public/PB-Front-4.png" alt="" />
+                                <img src={contentImage04} alt="" />
                             </motion.div>
                             <h1 className='absolute flex overflow-hidden right-full translate-x-1/2 top-1/2 -translate-y-1/2 z-[9] text-9xl uppercase text-[#ceea67] hFont1'>
                                 {"Premium".split('').map((item, index) =>

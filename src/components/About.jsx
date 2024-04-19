@@ -1,4 +1,5 @@
 import React from 'react'
+import HomepagePhoto from '../assets/Homepage-Photo.jpg';
 
 const About = () => {
     return (
@@ -57,7 +58,7 @@ const About = () => {
                             <div className='w-[10px] h-[10px] bg-white rounded-full ml-[22px]'></div>
                         </a>
                     </div>
-                    <div className='w-1/2 h-[60vh] bg-[url("Homepage-Photo.jpg")] bg-cover rounded-xl'></div>
+                    <div className='w-1/2 h-[60vh] bg-cover rounded-xl' style={{ backgroundImage: `url(${HomepagePhoto})` }}></div>
                 </div>
             </div>
         </div>
