@@ -24,7 +24,7 @@ function App() {
       <Eyes />
       <Featured />
       <Cards />
-      <EyesTwo />
+      {/* <EyesTwo /> */}
       <Footer />
     </div>
   )
