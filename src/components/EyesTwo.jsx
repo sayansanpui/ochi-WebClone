@@ -34,8 +34,8 @@ const EyesTwo = () => {
             let deltaX = mouseX - window.innerWidth / 2;
             let deltaY = mouseY - window.innerHeight / 2;
 
-            var x = (deltaX / w)*8;
-            var y = (deltaY / h)*8;
+            var x = (deltaX / w) * 8;
+            var y = (deltaY / h) * 8;
 
             setXDistance(x);
             setYDistance(y);
@@ -46,7 +46,11 @@ const EyesTwo = () => {
 
     return (
         <div className='eyes w-full h-screen overflow-hidden'>
-            <div data-scroll data-scroll-section data-scroll-speed="-.7" className='relative w-full h-full bg-cover' style={{ backgroundImage: `url(${eyeBg2})` }}>
+            <div
+                data-scroll data-scroll-section data-scroll-speed="-.5"
+                className='relative w-full h-full bg-cover'
+                style={{ backgroundImage: `url(${eyeBg2})` }}
+            >
                 <div className='absolute top-1/2 left-1/2 -translate-x-[50%] -translate-y-[50%] flex gap-10 '>
                     <div className='w-[14.7rem] h-[14.7rem] rounded-full bg-zinc-100'>
                         <div style={{ transform: `translate(${38 + xDistance}%, ${38 + yDistance}%)` }} className='absolute'>
