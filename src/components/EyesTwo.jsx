@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react'
-import eyeBg from '../assets/bgText.png';
+import eyeBg1 from '../assets/Top-Viewbbcbv-1-scaled.jpg';
+import eyeBg2 from '../assets/bgText.png';
 
 const EyesTwo = () => {
     const [rotate, setRotate] = useState(0);
@@ -45,7 +46,7 @@ const EyesTwo = () => {
 
     return (
         <div className='eyes w-full h-screen overflow-hidden'>
-            <div data-scroll data-scroll-section data-scroll-speed="-.7" className='relative w-full h-full bg-cover' style={{ backgroundImage: `url(${eyeBg})` }}>
+            <div data-scroll data-scroll-section data-scroll-speed="-.7" className='relative w-full h-full bg-cover' style={{ backgroundImage: `url(${eyeBg1})` }}>
                 <div className='absolute top-1/2 left-1/2 -translate-x-[50%] -translate-y-[50%] flex gap-10 '>
                     <div className='w-[14.7rem] h-[14.7rem] rounded-full bg-zinc-100'>
                         <div style={{ transform: `translate(${38 + xDistance}%, ${38 + yDistance}%)` }} className='absolute'>
