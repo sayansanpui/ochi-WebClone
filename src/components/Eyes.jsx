@@ -44,7 +44,7 @@ const Eyes = () => {
 
     return (
         <div className='eyes w-full h-screen overflow-hidden'>
-            <div data-scroll data-scroll-section data-scroll-speed="-.7" className='relative w-full h-full bg-cover bg-center bg-[url("Top-Viewbbcbv-1-scaled.jpg")]'>
+            <div data-scroll data-scroll-section data-scroll-speed="-.7" className='relative w-full h-full bg-cover bg-center bg-[url("https://github.com/sayansanpui/ochi-WebClone/blob/main/public/Top-Viewbbcbv-1-scaled.jpg?raw=true")]'>
                 <div className='absolute top-1/2 left-1/2 -translate-x-[50%] -translate-y-[50%] flex gap-10 '>
                     <div className='w-[14.7rem] h-[14.7rem] rounded-full bg-zinc-100'>
                         <div style={{ transform: `translate(${38 + xDistance}%, ${38 + yDistance}%)` }} className='absolute'>
